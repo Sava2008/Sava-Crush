@@ -5,7 +5,7 @@
 Windows only instruction below. In case your operational system differs, I recommend you recreate the executable from the main_code.py file.
 
 The user is to ensure that every file is in the correct directory.
-The game folder should consist of 3 units: "Images" and "Sounds" folders (notice that all the names are case sensitive), and an executable, each located in the same directory. The "Images" folder should contain the following files: "Blue_gem.png", "Bruise_gem.png", "Cyan_gem.png", "Magenta_gem.png", "Orange_gem.png", "Purple_gem.png" (Not required in this version), "Red_gem.png", "Green_gem.png", "Icon.ico", "Lightning.png", "Firework.png", "Bomb.png". The "Sounds" folder must consist of "Forbidden.mp3", "Forbidden2.mp3", "Gem_sound.wav", "Gem_sound2.wav", "Gem_sound3.mp3", "Gem_sound4.wav", "Lightning_sound.wav", "Firework_sound.wav", "Bomb_sound.wav". In case you downloaded the zip file, everything should be organized for you. The order in each folder and the folders themselves doesn't matter. After reassuring yourself of integrity of the assets, run the executable and the game should start.
+The game folder should consist of 3 units: "Images" and "Sounds" folders (notice that all the names are case sensitive), and an executable, each located in the same directory. The "Images" folder should contain the following files: "Blue_gem.png", "Bruise_gem.png", "Cyan_gem.png", "Magenta_gem.png", "Orange_gem.png", "Purple_gem.png" (Not required in 1.0.0 version), "Red_gem.png", "Green_gem.png", "Icon.ico", "Lightning.png", "Firework.png", "Bomb.png". The "Sounds" folder must consist of "Forbidden.mp3", "Forbidden2.mp3", "Gem_sound.wav", "Gem_sound2.wav", "Gem_sound3.mp3", "Gem_sound4.wav", "Lightning_sound.wav", "Firework_sound.wav", "Bomb_sound.wav". In case you downloaded the zip file, everything should be organized for you. The order in each folder and the folders themselves doesn't matter. After reassuring yourself of integrity of the assets, run the executable and the game should start.
 
 ### Example of how files should be organized
 
@@ -48,7 +48,7 @@ The SavaCrush game is built in python 3.13.5. Frameworks used: Pygame 2.6.1. Reb
 pyinstaller --onefile "C:\Users\user\Folder\main_code.py" --windowed --icon="C:\Users\user\Folder\Images\Icon.ico" --name "SavaCrush"
 ```
 
-## New features for this version (1.0.0)
+## New features for SavaCrush 1.0.0
 
 1. Implemented explosives of three types: firework, bomb and lightning, each with unique mechanics.
 2. Added boundary around selected slot during the game.
@@ -70,3 +70,4 @@ Developer - Sava2008
 Designer - Sava2008
 Images - AI generated
 Sounds - Extracted from free sources
+
