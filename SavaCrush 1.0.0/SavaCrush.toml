@@ -1,0 +1,21 @@
+[project]
+name = "Sava_Crush"
+version = "1.0.0"
+author = [
+    {name = "Sava2008"}
+]
+description = "README.md"
+
+[images]
+gems = ["Blue_gem.png", "Cyan_gem.png", "Orange_gem.png", "Purple_gem.png", 
+        "Red_gem.png", "Magenta_gem.png", "Green_gem.png", "Bruise_gem.png"]
+explosives = ["Firework.png", "Bomb.png", "Lightning.png"]
+icons = ["Icon.ico"]
+#all images are ai generated
+
+[sounds]
+success = ["Gem_sound.wav", "Gem_sound2.wav", 
+           "Gem_sound3.mp3", "Gem_sound4.wav"]
+failure = ["Forbidden.mp3", "Forbidden2.mp3"]
+explosives = ["Lightning_sound.wav", "Bomb_sound.wav",
+              "Firework_sound.wav"]
