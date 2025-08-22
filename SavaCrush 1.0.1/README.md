@@ -1,4 +1,4 @@
-# SavaCrush 1.0.0
+# SavaCrush 1.0.1
 
 ## Installation instructions
 
