@@ -63,7 +63,7 @@ The SavaCrush game is built in Rust 1.89.0, Dependencies used: ggez 0.7.1, rand 
 cd C:\Path\Where\You\Put\The\Project && cargo build --release
 ```
 
-## New features for this version (1.1.0)
+## New features for this version (1.1.1)
 
 ### Optimization
 1. Removed redundant check for explosives in check_matches
@@ -91,4 +91,5 @@ Sounds - Extracted from free sources
 ### Tools
 Programming language - Rust 1.89.0
 Dependencies - ggez 0.7.1, rand 0.9.2
+
 
