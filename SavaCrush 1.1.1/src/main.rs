@@ -145,7 +145,6 @@ impl MainState {
                         self.checked_matches = false;
                     }
                     Phase::MatchCheck => {
-                        println!("no matches!");
                         if !check_matches(self.board) {
                             shuffle(&mut self.board);
                         }
