@@ -1,4 +1,4 @@
-# SavaCrush 1.1.0
+# SavaCrush 1.1.1
 
 ## Installation instructions
 
@@ -63,21 +63,18 @@ The SavaCrush game is built in Rust 1.89.0, Dependencies used: ggez 0.7.1, rand 
 cd C:\Path\Where\You\Put\The\Project && cargo build --release
 ```
 
-## New features for this version (1.1.0)
+## New features for this version (1.1.1)
 
 ### Optimization
-1. Rewrote the entire game into Rust
-2. Added phase-control algorithm which now alternates detruction, pulling objects down, and accepting player's input
-3. Made bomb area lookup more robust
+1. Removed redundant check for explosives in check_matches
 
 ### Game mechanics
-None
+1. Board shuffling now works as expected
 
 ### Other
-1. Added the fifth module for functions that are not inherent to the functionality module
+1. Code is now formatted properly
 
 ## What is planned to be added?
-
 1. Animations
 2. Logging
 3. Progress-save mechanics
@@ -94,3 +91,4 @@ Sounds - Extracted from free sources
 ### Tools
 Programming language - Rust 1.89.0
 Dependencies - ggez 0.7.1, rand 0.9.2
+
